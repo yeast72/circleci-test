@@ -25,3 +25,9 @@ workflows:
               only: /.*/
             branches:
               ignore: /.*/
+      - build2:
+           filters:
+            tags:
+              only: /.*/
+            branches:
+              ignore: /.*/
