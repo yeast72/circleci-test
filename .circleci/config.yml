@@ -31,9 +31,9 @@ workflows:
   build:
     jobs:
       - build:
-        filters:
-          branches:
-            only: /.*/
+           filters:
+            branches:
+              only: /.*/
       - build2:
            requires:
               - build
